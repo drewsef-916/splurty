@@ -83,6 +83,23 @@ h2 {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
 
+.modal {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: "cantarellboldoblique", cursive;
+}
+
+::selection {
+  background-color: #f84342;
+}
 
 
