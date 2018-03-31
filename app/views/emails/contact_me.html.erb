@@ -1,0 +1,20 @@
+<div class=" contact-box col-8 offset-2 contact_me">
+  <h1> Let me know what you think! </h1>
+    <br />
+    <h3> Type your comments in the box below: </h3>
+    <%= simple_form_for @email, url:  do |f| %>
+    <%= f.input :title %>
+    <%= f.input :from %>
+    <%= f.input :body %>
+    <%= f.submit 'Send', class: 'btn btn-secondary' %>
+    <% end %>
+     
+<br class="clear">
+
+
+    <br />
+    <br />
+  </div>
+
+</div>
+
