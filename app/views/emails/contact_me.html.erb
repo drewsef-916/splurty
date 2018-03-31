@@ -2,7 +2,7 @@
   <h1> Let me know what you think! </h1>
     <br />
     <h3> Type your comments in the box below: </h3>
-    <%= simple_form_for @email, url:  do |f| %>
+    <%= simple_form_for @email do |f| %>
     <%= f.input :title %>
     <%= f.input :from %>
     <%= f.input :body %>
